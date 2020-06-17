@@ -1,0 +1,119 @@
+body {
+    /* color: white; */
+    background-image: url(/home/aman/projects/masai/sprint-1/resources/marko-blazevic-Z2s0-zSe3TI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+
+
+.class2 {
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: auto;
+}
+
+.class2 img {
+        width: 150px;
+        float: left;
+        
+    }
+
+    
+    h1 {
+        float: left;
+        color: rgb(206, 89, 47);
+        font-size: auto;
+        margin-left: 50px;
+        margin-top:30px;
+    }
+
+
+h2 {
+    font-size: 40px;
+    margin: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);   
+}
+
+#id3 {
+    clear: left;
+}
+
+.back {
+    background-color: rgb(255, 139, 139);
+    height: auto;
+    width: 500px;
+    float: right;
+    margin: 0px 45px 0px 0px;
+    font-size: 15px;
+}
+
+.back input {
+    float: right;
+    margin: 0px 40px 0px 0px;
+}
+
+.back div {
+    margin: 60px 0px 0px 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+@media(max-width: 900px) {
+    
+    
+    .class2 {
+        height: 250px;
+        width: auto;
+    }
+
+    h1 {
+        font-size:auto;
+        margin-left: 15px;
+        margin-top: 40px;
+        clear: left;
+    }
+
+    h2 {
+        font-size: auto;
+        margin: 10px 10px 10px 10px;
+
+    }
+    .back {
+        width: auto;
+        font-size: auto;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .back div {
+        margin: 80px 0px 0px 10px;
+    }
+
+}
+@media(max-width: 600px) {
+    .class2 {
+        height: 300px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+    .back div {
+        margin: 80px 0px 0px 5px;
+    }
+    
+}

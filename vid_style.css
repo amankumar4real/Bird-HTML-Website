@@ -1,0 +1,125 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.class1 {
+    height: auto;
+    width: auto;
+}
+
+#id1 {
+    background-image: url(/home/aman/projects/masai/sprint-1/resources/jeremy-bishop-hppWAs2WTZU-unsplash.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: transparent;
+    background-attachment: fixed; 
+    /* filter: blur(4px); */
+    color: white;
+}
+
+.class2 {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: auto;
+}
+
+.class2 img {
+    height: 60%;
+    float: left;
+    padding: 20px;
+}
+
+h1 {
+    float: left;
+    color: coral;
+    font-size: auto;
+    margin-left: 30px;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 45px;
+    color: rgb(226, 41, 41);
+}
+
+p {
+    font-size: 25px;
+}
+
+div h4 {
+    font-size: 35px;
+    color: rgb(84, 84, 221);
+}
+
+.class3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto ;
+    margin: 40px;
+    clear: left;
+}
+
+/* .class3 div {
+    background-color: rgb(255, 230, 0);
+    border: 1px solid rgb(185, 57, 57);
+} */
+
+/* .class3 div {
+    margin: 40px 0px 40px 0px;
+} */
+
+.class3 img {
+    width: 50%;
+}
+
+div h4,p, h2{
+    padding: 30px;
+}
+
+@media(max-width: 900px){
+    #id1 {
+        background-repeat: repeat;
+    }
+    .class2 {
+        
+        width: auto;
+    }
+    /* .class2 img {
+        width :50%;
+    } */
+    .class3 {
+        grid-gap: 10px;
+        margin: 20px;
+    }
+    div h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 25px;
+        padding: 20px;
+    }
+    .class2 img {
+        padding: 10px;
+    }
+}
+
+@media(max-width: 900px){
+
+    .class2 {
+        height: 240px;
+    }
+
+    h1 {
+        padding: 10px;
+
+    }
+}
